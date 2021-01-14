@@ -1,0 +1,6 @@
+framework module AloServiceModel {
+  umbrella header "AloServiceModel-umbrella.h"
+
+  export *
+  module * { export * }
+}
