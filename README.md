@@ -24,7 +24,8 @@ pod 'AloServiceModel',
 ```
 ## Comments
 
-This project contains a ML model made by aloisiofjrdev called ClubClassifierDale
+This project contains a ML model made by aloisiofjrdev called ClubClassifierDale.
+Obs: if you are only analyzing bad teams, try to analyze Figueirense :)
 
 ## PrintScreens
 <div align="center">
