@@ -26,6 +26,9 @@ pod 'AloServiceModel',
 
 This project contains a ML model made by aloisiofjrdev called ClubClassifierDale
 
+## PrintScreens
+
+
 ## Author
 
 aloisiofjrdev, aloisiofjr@hotmail.com
