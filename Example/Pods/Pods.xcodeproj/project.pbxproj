@@ -9,71 +9,81 @@
 /* Begin PBXBuildFile section */
 		1E1862C9212C78F0F2C24AC002C7CAC1 /* Pods-AloServiceModel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB7366021ED10A353DAE2179397C7488 /* Pods-AloServiceModel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		233DBD18433BAC8F6584AAA5B3A33AC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2EB560597A6F811A8A8B3D1B3F8B4366 /* AloServiceModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE3CE5481D84D00515294469C841AD0 /* AloServiceModel-dummy.m */; };
+		3EE6A2878FD8D2851238A3FD0DE9DDED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		47E2A0DE482E7772C8369CB4F0906B9F /* Pods-AloServiceModel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE28A3E5646E4BAC55E7C2F532BFE4CE /* Pods-AloServiceModel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50BE1FC88C409925980CB2B3DF04464D /* Pods-AloServiceModel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0180DBEFA1A80CBD1356BA123D24CA98 /* Pods-AloServiceModel_Tests-dummy.m */; };
-		5FCBAB9946C05A6B10EE4B63FF4DBA26 /* AloServiceModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 376EA6BE4070BDA5688D3C93E66A3673 /* AloServiceModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B0FE21A1124B31777977FACF505195F /* AloServiceModel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2F2DBCB2B0F9F820FD851A4D323D0052 /* AloServiceModel.bundle */; };
 		9D931EB7F980A85D0D6AC6A8E7DE39AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AD8CB1D53132221F09AC33030D627102 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D3BC2F5D25B106820096BE97 /* ImageAnalyzerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BC2F5C25B106820096BE97 /* ImageAnalyzerService.swift */; };
-		D3BC2F6225B107000096BE97 /* AnalysisResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BC2F6125B107000096BE97 /* AnalysisResultViewController.swift */; };
-		D3BC2F6725B107450096BE97 /* AnalysisResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3BC2F6625B107450096BE97 /* AnalysisResultViewController.xib */; };
-		D3BC2F6C25B107620096BE97 /* MNISTClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D3BC2F6B25B107620096BE97 /* MNISTClassifier.mlmodel */; };
+		A9E20EC24367C64B0BF7137371D9F89F /* AloServiceModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E0464BB132951C0F1109C3750E4109E /* AloServiceModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD45ECECD15499BF24DA2C5FAC3BE3DB /* AloServiceModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E99D6357B4EC296178770159C2325AF6 /* AloServiceModel-dummy.m */; };
+		AFD2916620BD456C69E4BB135EDDF133 /* ImageAnalyzerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2415F8A8CE850C4481E2F9670E265F7 /* ImageAnalyzerService.swift */; };
+		CDCC58232A24149D6C35BA8F9DE370EA /* MNISTClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1FF309FF652220178EF8A7C2E6077C06 /* MNISTClassifier.mlmodel */; };
+		D3BC2FBA25B141390096BE97 /* AnalysisResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3BC2FB925B141390096BE97 /* AnalysisResultViewController.xib */; };
 		D748B6746FDB6BBD43CDF0CB9BF77B12 /* Pods-AloServiceModel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4055B428E49D93D59566B3291C119362 /* Pods-AloServiceModel_Example-dummy.m */; };
+		EF525B05419249ADB52184DC9A1AADC1 /* AnalysisResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86EC8F1AFB9146BB5D17E3FE9164C6 /* AnalysisResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2B7985408F5B06BF8E8A490B5E46C608 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2A2409357BC85C9A2CAE2B88A13F23F0;
-			remoteInfo = AloServiceModel;
-		};
-		D9FEDC97EAFB291664EAA546D50D833A /* PBXContainerItemProxy */ = {
+		8F0976AD9896BDD2F5D44DD06CBAF81C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B809E0E80B22C052298BDB9285EBFE49;
 			remoteInfo = "Pods-AloServiceModel_Example";
 		};
+		99B2C75BCFA521D978ABE59F505C5922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A2409357BC85C9A2CAE2B88A13F23F0;
+			remoteInfo = AloServiceModel;
+		};
+		9ABD26D91BAD672FF1DB7AFA82C54108 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F87AF179A43EECAA32346065D0B738C;
+			remoteInfo = "AloServiceModel-AloServiceModel";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0180DBEFA1A80CBD1356BA123D24CA98 /* Pods-AloServiceModel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AloServiceModel_Tests-dummy.m"; sourceTree = "<group>"; };
+		049BCE42FDA99D06E9CADB94E2CAC9E1 /* ResourceBundle-AloServiceModel-AloServiceModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AloServiceModel-AloServiceModel-Info.plist"; sourceTree = "<group>"; };
 		088686D1D21CED7FC33A973F8F714157 /* Pods-AloServiceModel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AloServiceModel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0C0CF61BF76AF2A6860DFCC4AE32D29B /* Pods_AloServiceModel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AloServiceModel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16EBD8AB4E42C5EC9A2F5E648E8B5989 /* Pods-AloServiceModel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AloServiceModel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1E81F3990FC643B9408104D653F522D8 /* AloServiceModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AloServiceModel-prefix.pch"; sourceTree = "<group>"; };
+		1FF309FF652220178EF8A7C2E6077C06 /* MNISTClassifier.mlmodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.mlmodel; name = MNISTClassifier.mlmodel; path = AloServiceModel/Classes/MNISTClassifier.mlmodel; sourceTree = "<group>"; };
 		20F1F66D0E727D5521FA99EB479187C7 /* Pods-AloServiceModel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AloServiceModel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		253B5D00FD27B9C26F3FF3B3327BFC02 /* Pods-AloServiceModel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AloServiceModel_Tests.modulemap"; sourceTree = "<group>"; };
-		347732BA8F03B406FC81CEB4F062048A /* AloServiceModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AloServiceModel.debug.xcconfig; sourceTree = "<group>"; };
-		376EA6BE4070BDA5688D3C93E66A3673 /* AloServiceModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AloServiceModel-umbrella.h"; sourceTree = "<group>"; };
-		37C7C7FCC1D7F17D9F81F2D9B48D08B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2F2DBCB2B0F9F820FD851A4D323D0052 /* AloServiceModel.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AloServiceModel.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3523D7B9A763DCD108B8295EDB7D9D7D /* AloServiceModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AloServiceModel-Info.plist"; sourceTree = "<group>"; };
 		397FC9BD78F170D70402B732B19E71D7 /* Pods-AloServiceModel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AloServiceModel_Example.modulemap"; sourceTree = "<group>"; };
 		4055B428E49D93D59566B3291C119362 /* Pods-AloServiceModel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AloServiceModel_Example-dummy.m"; sourceTree = "<group>"; };
+		40631C41A03CD3F806F5EEF7BEE9E92F /* AloServiceModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AloServiceModel.debug.xcconfig; sourceTree = "<group>"; };
 		4810FE4B22A448AA4918851C42F701F6 /* Pods-AloServiceModel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AloServiceModel_Tests-Info.plist"; sourceTree = "<group>"; };
 		55635CA82117466D9B8B465E579206ED /* Pods-AloServiceModel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AloServiceModel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7059C01307083E016567A95B9F8C3C8C /* AloServiceModel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AloServiceModel.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		5B1B431A991768B7C4C89BBA86A3E0C4 /* AloServiceModel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AloServiceModel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6F3507542233A54C7A9CC54EA736D6BD /* AloServiceModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AloServiceModel.release.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		780A15F4154D96613353C3B9F31A83EE /* AloServiceModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AloServiceModel.modulemap; sourceTree = "<group>"; };
 		79F1628DFAA99B61ADAD81878916D672 /* Pods-AloServiceModel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AloServiceModel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8802CFAAFB6DED3E8231CBEDA1159DC4 /* AloServiceModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AloServiceModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		884F53148624333B9A064D51D83C5A4D /* Pods-AloServiceModel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AloServiceModel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8F93C5A31DC7CF9B6221429B22CE20A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		92EB850AAD702446C1BA0BA4CACFEA5D /* AloServiceModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AloServiceModel.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0464BB132951C0F1109C3750E4109E /* AloServiceModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AloServiceModel-umbrella.h"; sourceTree = "<group>"; };
+		9F86EC8F1AFB9146BB5D17E3FE9164C6 /* AnalysisResultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnalysisResultViewController.swift; path = AloServiceModel/Classes/AnalysisResultViewController.swift; sourceTree = "<group>"; };
+		A2415F8A8CE850C4481E2F9670E265F7 /* ImageAnalyzerService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageAnalyzerService.swift; path = AloServiceModel/Classes/ImageAnalyzerService.swift; sourceTree = "<group>"; };
 		A9203A929C2FCACF6B5D14DE3E331101 /* Pods-AloServiceModel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AloServiceModel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BBE3CE5481D84D00515294469C841AD0 /* AloServiceModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AloServiceModel-dummy.m"; sourceTree = "<group>"; };
+		C2F4A87396E183D3DBF4048D2109E4F0 /* AloServiceModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AloServiceModel-prefix.pch"; sourceTree = "<group>"; };
+		C58C6F9E6D4FD58F3BE7BF14E06DD115 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CC4A89B3129D4F1FE67D82A20EAA08CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CE28A3E5646E4BAC55E7C2F532BFE4CE /* Pods-AloServiceModel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AloServiceModel_Example-umbrella.h"; sourceTree = "<group>"; };
-		D3BC2F5C25B106820096BE97 /* ImageAnalyzerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageAnalyzerService.swift; path = AloServiceModel/Classes/ImageAnalyzerService.swift; sourceTree = "<group>"; };
-		D3BC2F6125B107000096BE97 /* AnalysisResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnalysisResultViewController.swift; path = AloServiceModel/Classes/AnalysisResultViewController.swift; sourceTree = "<group>"; };
-		D3BC2F6625B107450096BE97 /* AnalysisResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnalysisResultViewController.xib; sourceTree = "<group>"; };
-		D3BC2F6B25B107620096BE97 /* MNISTClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNISTClassifier.mlmodel; sourceTree = "<group>"; };
-		D8A0404433D37BFF863FB2DEA93E73C1 /* AloServiceModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AloServiceModel-Info.plist"; sourceTree = "<group>"; };
+		D3BC2FB925B141390096BE97 /* AnalysisResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AnalysisResultViewController.xib; path = AloServiceModel/Classes/AnalysisResultViewController.xib; sourceTree = "<group>"; };
 		E6150C972066E243879A5570F065E812 /* Pods-AloServiceModel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AloServiceModel_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E94EA6EB407A7235FA63473AA9BB49C2 /* Pods-AloServiceModel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AloServiceModel_Example-Info.plist"; sourceTree = "<group>"; };
+		E99D6357B4EC296178770159C2325AF6 /* AloServiceModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AloServiceModel-dummy.m"; sourceTree = "<group>"; };
 		EB7366021ED10A353DAE2179397C7488 /* Pods-AloServiceModel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AloServiceModel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EE11E0872CA715E3CD47061F07ADC28F /* AloServiceModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AloServiceModel.modulemap; sourceTree = "<group>"; };
 		FC92968662E7C1C5ADD1D5A4D52C8077 /* Pods_AloServiceModel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AloServiceModel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA2C9A02CA9DEC5AE423E0967CD9F97 /* Pods-AloServiceModel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AloServiceModel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,30 +105,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8F84AA8A38B44A9CE9C76C7C55C9543 /* Frameworks */ = {
+		4704D864BE45E5F81E71A898A0A90A52 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD8CB1D53132221F09AC33030D627102 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88CEACCC8915CEA756EF1044DBA338C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE6A2878FD8D2851238A3FD0DE9DDED /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2FD5CDCFE64F789C34A4581F3B49D2D5 /* Support Files */ = {
+		338D4065BF3EF1374033CB06C699B00D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				EE11E0872CA715E3CD47061F07ADC28F /* AloServiceModel.modulemap */,
-				BBE3CE5481D84D00515294469C841AD0 /* AloServiceModel-dummy.m */,
-				D8A0404433D37BFF863FB2DEA93E73C1 /* AloServiceModel-Info.plist */,
-				1E81F3990FC643B9408104D653F522D8 /* AloServiceModel-prefix.pch */,
-				376EA6BE4070BDA5688D3C93E66A3673 /* AloServiceModel-umbrella.h */,
-				347732BA8F03B406FC81CEB4F062048A /* AloServiceModel.debug.xcconfig */,
-				92EB850AAD702446C1BA0BA4CACFEA5D /* AloServiceModel.release.xcconfig */,
+				5B1B431A991768B7C4C89BBA86A3E0C4 /* AloServiceModel.podspec */,
+				CC4A89B3129D4F1FE67D82A20EAA08CB /* LICENSE */,
+				C58C6F9E6D4FD58F3BE7BF14E06DD115 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AloServiceModel";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		3E2235FBE50F65573BD8E36986FFA208 /* Pods-AloServiceModel_Example */ = {
@@ -138,16 +150,6 @@
 			path = "Target Support Files/Pods-AloServiceModel_Example";
 			sourceTree = "<group>";
 		};
-		47102CE52A2AE26E4B055B56E0714D8B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8802CFAAFB6DED3E8231CBEDA1159DC4 /* AloServiceModel.framework */,
-				0C0CF61BF76AF2A6860DFCC4AE32D29B /* Pods_AloServiceModel_Example.framework */,
-				FC92968662E7C1C5ADD1D5A4D52C8077 /* Pods_AloServiceModel_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		49270AB5FB0A022C23E4D0EFDFACDC65 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,14 +167,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		85E9CC8C530FDFFF40A0F289EF7D42CB /* Pod */ = {
+		5BA36169186477649267F074A2D7BBBC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7059C01307083E016567A95B9F8C3C8C /* AloServiceModel.podspec */,
-				8F93C5A31DC7CF9B6221429B22CE20A0 /* LICENSE */,
-				37C7C7FCC1D7F17D9F81F2D9B48D08B9 /* README.md */,
+				CE97D531BAB1978746732FB3C65E1BA0 /* AloServiceModel */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		982DAB2FFC6111841D76379B453AF03E /* Pods-AloServiceModel_Tests */ = {
@@ -191,13 +191,38 @@
 			path = "Target Support Files/Pods-AloServiceModel_Tests";
 			sourceTree = "<group>";
 		};
+		C9A60A2A5AD9F366DA9619A0860C04FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F2DBCB2B0F9F820FD851A4D323D0052 /* AloServiceModel.bundle */,
+				8802CFAAFB6DED3E8231CBEDA1159DC4 /* AloServiceModel.framework */,
+				0C0CF61BF76AF2A6860DFCC4AE32D29B /* Pods_AloServiceModel_Example.framework */,
+				FC92968662E7C1C5ADD1D5A4D52C8077 /* Pods_AloServiceModel_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE97D531BAB1978746732FB3C65E1BA0 /* AloServiceModel */ = {
+			isa = PBXGroup;
+			children = (
+				9F86EC8F1AFB9146BB5D17E3FE9164C6 /* AnalysisResultViewController.swift */,
+				D3BC2FB925B141390096BE97 /* AnalysisResultViewController.xib */,
+				A2415F8A8CE850C4481E2F9670E265F7 /* ImageAnalyzerService.swift */,
+				1FF309FF652220178EF8A7C2E6077C06 /* MNISTClassifier.mlmodel */,
+				338D4065BF3EF1374033CB06C699B00D /* Pod */,
+				FB7E7DBB16381603A4A18A125BCDE278 /* Support Files */,
+			);
+			name = AloServiceModel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D4CA722EE2A8761CA7184090B8C3CC93 /* Development Pods */,
+				5BA36169186477649267F074A2D7BBBC /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				47102CE52A2AE26E4B055B56E0714D8B /* Products */,
+				C9A60A2A5AD9F366DA9619A0860C04FA /* Products */,
 				49270AB5FB0A022C23E4D0EFDFACDC65 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -210,26 +235,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D4CA722EE2A8761CA7184090B8C3CC93 /* Development Pods */ = {
+		FB7E7DBB16381603A4A18A125BCDE278 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FD84CBD1E0B1C85BC10BAB9478FDEC61 /* AloServiceModel */,
+				780A15F4154D96613353C3B9F31A83EE /* AloServiceModel.modulemap */,
+				E99D6357B4EC296178770159C2325AF6 /* AloServiceModel-dummy.m */,
+				3523D7B9A763DCD108B8295EDB7D9D7D /* AloServiceModel-Info.plist */,
+				C2F4A87396E183D3DBF4048D2109E4F0 /* AloServiceModel-prefix.pch */,
+				9E0464BB132951C0F1109C3750E4109E /* AloServiceModel-umbrella.h */,
+				40631C41A03CD3F806F5EEF7BEE9E92F /* AloServiceModel.debug.xcconfig */,
+				6F3507542233A54C7A9CC54EA736D6BD /* AloServiceModel.release.xcconfig */,
+				049BCE42FDA99D06E9CADB94E2CAC9E1 /* ResourceBundle-AloServiceModel-AloServiceModel-Info.plist */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		FD84CBD1E0B1C85BC10BAB9478FDEC61 /* AloServiceModel */ = {
-			isa = PBXGroup;
-			children = (
-				85E9CC8C530FDFFF40A0F289EF7D42CB /* Pod */,
-				2FD5CDCFE64F789C34A4581F3B49D2D5 /* Support Files */,
-				D3BC2F5C25B106820096BE97 /* ImageAnalyzerService.swift */,
-				D3BC2F6125B107000096BE97 /* AnalysisResultViewController.swift */,
-				D3BC2F6625B107450096BE97 /* AnalysisResultViewController.xib */,
-				D3BC2F6B25B107620096BE97 /* MNISTClassifier.mlmodel */,
-			);
-			name = AloServiceModel;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AloServiceModel";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,11 +262,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2FA49306388C66159DA70F90AEC345A /* Headers */ = {
+		5566B99D996B8BA7FFA4C477D986982F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FCBAB9946C05A6B10EE4B63FF4DBA26 /* AloServiceModel-umbrella.h in Headers */,
+				A9E20EC24367C64B0BF7137371D9F89F /* AloServiceModel-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,21 +283,39 @@
 /* Begin PBXNativeTarget section */
 		2A2409357BC85C9A2CAE2B88A13F23F0 /* AloServiceModel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C2E01E8A1DC6F9AC5711CBF1053B654 /* Build configuration list for PBXNativeTarget "AloServiceModel" */;
+			buildConfigurationList = FDC6BDDD6616C6A28FCAB44010B01C0C /* Build configuration list for PBXNativeTarget "AloServiceModel" */;
 			buildPhases = (
-				B2FA49306388C66159DA70F90AEC345A /* Headers */,
-				E116A7BA5EAFE407BEEA44EF38FDC695 /* Sources */,
-				A8F84AA8A38B44A9CE9C76C7C55C9543 /* Frameworks */,
-				44DD586EBACBE748F9586B0413E44C73 /* Resources */,
+				5566B99D996B8BA7FFA4C477D986982F /* Headers */,
+				76F0C03E3389C22F6FFCC0A7F3DA9557 /* Sources */,
+				88CEACCC8915CEA756EF1044DBA338C2 /* Frameworks */,
+				2777C2472D9210E4C0E3B720BCCBFF7B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3BB33300CD0B84C6373075C430FEB846 /* PBXTargetDependency */,
 			);
 			name = AloServiceModel;
 			productName = AloServiceModel;
 			productReference = 8802CFAAFB6DED3E8231CBEDA1159DC4 /* AloServiceModel.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		9F87AF179A43EECAA32346065D0B738C /* AloServiceModel-AloServiceModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525FCC90E914D64B0512750EDEC5897F /* Build configuration list for PBXNativeTarget "AloServiceModel-AloServiceModel" */;
+			buildPhases = (
+				6950BD4EDF8620AE7CA1C45AE6C97CDD /* Sources */,
+				4704D864BE45E5F81E71A898A0A90A52 /* Frameworks */,
+				FA49E158D1C18F5320209ADF863C9BE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AloServiceModel-AloServiceModel";
+			productName = "AloServiceModel-AloServiceModel";
+			productReference = 2F2DBCB2B0F9F820FD851A4D323D0052 /* AloServiceModel.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		B809E0E80B22C052298BDB9285EBFE49 /* Pods-AloServiceModel_Example */ = {
 			isa = PBXNativeTarget;
@@ -292,7 +329,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CB92551139C94041ED23497A4FA6A063 /* PBXTargetDependency */,
+				F36C62A55413DBA3DE64388A6744D0C2 /* PBXTargetDependency */,
 			);
 			name = "Pods-AloServiceModel_Example";
 			productName = "Pods-AloServiceModel_Example";
@@ -311,7 +348,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9598988569936B908E9D79BAF9C8984F /* PBXTargetDependency */,
+				501B52384C516EBF147F27159A25CE89 /* PBXTargetDependency */,
 			);
 			name = "Pods-AloServiceModel_Tests";
 			productName = "Pods-AloServiceModel_Tests";
@@ -336,11 +373,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 47102CE52A2AE26E4B055B56E0714D8B /* Products */;
+			productRefGroup = C9A60A2A5AD9F366DA9619A0860C04FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				2A2409357BC85C9A2CAE2B88A13F23F0 /* AloServiceModel */,
+				9F87AF179A43EECAA32346065D0B738C /* AloServiceModel-AloServiceModel */,
 				B809E0E80B22C052298BDB9285EBFE49 /* Pods-AloServiceModel_Example */,
 				FDDB02CD9DBD739093784DA040D1935A /* Pods-AloServiceModel_Tests */,
 			);
@@ -355,11 +393,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		44DD586EBACBE748F9586B0413E44C73 /* Resources */ = {
+		2777C2472D9210E4C0E3B720BCCBFF7B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3BC2F6725B107450096BE97 /* AnalysisResultViewController.xib in Resources */,
+				D3BC2FBA25B141390096BE97 /* AnalysisResultViewController.xib in Resources */,
+				5B0FE21A1124B31777977FACF505195F /* AloServiceModel.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,9 +409,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA49E158D1C18F5320209ADF863C9BE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6950BD4EDF8620AE7CA1C45AE6C97CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		72E15CDB2FAC044AFF1D90A8A15621C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,14 +434,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E116A7BA5EAFE407BEEA44EF38FDC695 /* Sources */ = {
+		76F0C03E3389C22F6FFCC0A7F3DA9557 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3BC2F5D25B106820096BE97 /* ImageAnalyzerService.swift in Sources */,
-				2EB560597A6F811A8A8B3D1B3F8B4366 /* AloServiceModel-dummy.m in Sources */,
-				D3BC2F6225B107000096BE97 /* AnalysisResultViewController.swift in Sources */,
-				D3BC2F6C25B107620096BE97 /* MNISTClassifier.mlmodel in Sources */,
+				AD45ECECD15499BF24DA2C5FAC3BE3DB /* AloServiceModel-dummy.m in Sources */,
+				EF525B05419249ADB52184DC9A1AADC1 /* AnalysisResultViewController.swift in Sources */,
+				AFD2916620BD456C69E4BB135EDDF133 /* ImageAnalyzerService.swift in Sources */,
+				CDCC58232A24149D6C35BA8F9DE370EA /* MNISTClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,17 +456,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9598988569936B908E9D79BAF9C8984F /* PBXTargetDependency */ = {
+		3BB33300CD0B84C6373075C430FEB846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AloServiceModel-AloServiceModel";
+			target = 9F87AF179A43EECAA32346065D0B738C /* AloServiceModel-AloServiceModel */;
+			targetProxy = 9ABD26D91BAD672FF1DB7AFA82C54108 /* PBXContainerItemProxy */;
+		};
+		501B52384C516EBF147F27159A25CE89 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AloServiceModel_Example";
 			target = B809E0E80B22C052298BDB9285EBFE49 /* Pods-AloServiceModel_Example */;
-			targetProxy = D9FEDC97EAFB291664EAA546D50D833A /* PBXContainerItemProxy */;
+			targetProxy = 8F0976AD9896BDD2F5D44DD06CBAF81C /* PBXContainerItemProxy */;
 		};
-		CB92551139C94041ED23497A4FA6A063 /* PBXTargetDependency */ = {
+		F36C62A55413DBA3DE64388A6744D0C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AloServiceModel;
 			target = 2A2409357BC85C9A2CAE2B88A13F23F0 /* AloServiceModel */;
-			targetProxy = 2B7985408F5B06BF8E8A490B5E46C608 /* PBXContainerItemProxy */;
+			targetProxy = 99B2C75BCFA521D978ABE59F505C5922 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -433,7 +492,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AloServiceModel_Tests/Pods-AloServiceModel_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AloServiceModel_Tests/Pods-AloServiceModel_Tests.modulemap";
@@ -447,6 +506,22 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		15295D3121EC713EDDA42C59F153B0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40631C41A03CD3F806F5EEF7BEE9E92F /* AloServiceModel.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AloServiceModel";
+				IBSC_MODULE = AloServiceModel;
+				INFOPLIST_FILE = "Target Support Files/AloServiceModel/ResourceBundle-AloServiceModel-AloServiceModel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = AloServiceModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -465,7 +540,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AloServiceModel_Example/Pods-AloServiceModel_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AloServiceModel_Example/Pods-AloServiceModel_Example.modulemap";
@@ -498,7 +573,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AloServiceModel_Example/Pods-AloServiceModel_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AloServiceModel_Example/Pods-AloServiceModel_Example.modulemap";
@@ -568,7 +643,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -580,37 +655,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		5E4915AAEE1255A3FCBD511B663A43C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92EB850AAD702446C1BA0BA4CACFEA5D /* AloServiceModel.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AloServiceModel/AloServiceModel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AloServiceModel/AloServiceModel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AloServiceModel/AloServiceModel.modulemap";
-				PRODUCT_MODULE_NAME = AloServiceModel;
-				PRODUCT_NAME = AloServiceModel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		9B3F299C873EB15371C258B6EDF72CE9 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -627,7 +671,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AloServiceModel_Tests/Pods-AloServiceModel_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AloServiceModel_Tests/Pods-AloServiceModel_Tests.modulemap";
@@ -642,6 +686,22 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ACB520447FD907B718C8BE1C4D28CF64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F3507542233A54C7A9CC54EA736D6BD /* AloServiceModel.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AloServiceModel";
+				IBSC_MODULE = AloServiceModel;
+				INFOPLIST_FILE = "Target Support Files/AloServiceModel/ResourceBundle-AloServiceModel-AloServiceModel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = AloServiceModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -695,7 +755,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -706,10 +766,43 @@
 			};
 			name = Release;
 		};
-		D3CC79BAA3B49B325775EB02EA96AA2E /* Debug */ = {
+		CB9E91C7A35DEEDC51851D2A2DB9DFE4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 347732BA8F03B406FC81CEB4F062048A /* AloServiceModel.debug.xcconfig */;
+			baseConfigurationReference = 6F3507542233A54C7A9CC54EA736D6BD /* AloServiceModel.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AloServiceModel/AloServiceModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AloServiceModel/AloServiceModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AloServiceModel/AloServiceModel.modulemap";
+				PRODUCT_MODULE_NAME = AloServiceModel;
+				PRODUCT_NAME = AloServiceModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB01329B53ACE31779F991D32FED6183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40631C41A03CD3F806F5EEF7BEE9E92F /* AloServiceModel.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -748,11 +841,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C2E01E8A1DC6F9AC5711CBF1053B654 /* Build configuration list for PBXNativeTarget "AloServiceModel" */ = {
+		525FCC90E914D64B0512750EDEC5897F /* Build configuration list for PBXNativeTarget "AloServiceModel-AloServiceModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3CC79BAA3B49B325775EB02EA96AA2E /* Debug */,
-				5E4915AAEE1255A3FCBD511B663A43C6 /* Release */,
+				15295D3121EC713EDDA42C59F153B0CF /* Debug */,
+				ACB520447FD907B718C8BE1C4D28CF64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -771,6 +864,15 @@
 			buildConfigurations = (
 				08E5E9D709CA1A89E8F1C62FC0306CCB /* Debug */,
 				9B3F299C873EB15371C258B6EDF72CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC6BDDD6616C6A28FCAB44010B01C0C /* Build configuration list for PBXNativeTarget "AloServiceModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB01329B53ACE31779F991D32FED6183 /* Debug */,
+				CB9E91C7A35DEEDC51851D2A2DB9DFE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
