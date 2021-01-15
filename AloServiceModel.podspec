@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AloServiceModel'
-  s.version          = '1.1.2'
+  s.version          = '1.1.3'
   s.summary          = 'A short description of AloServiceModel.'
 
 # This description is used to generate tags and improve search results.
@@ -30,9 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '14.0'
 
-  s.source_files = 'AloServiceModel/Classes/**/*.{swift,mlmodel,xib}'
+  s.source_files = 'AloServiceModel/Classes/**/*}'
   
-  # s.resource_bundles = {'AloServiceModel' => ['AloServiceModel/Assets/**/*.{xib}']
+  s.resource_bundles = {'AloServiceModel' => ['AloServiceModel/Assets/**/*']
   
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
