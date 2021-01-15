@@ -30,9 +30,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '14.0'
 
-  s.source_files = 'AloServiceModel/Classes/**/*.{swift,m,h,mlmodel}'
+  s.source_files = 'AloServiceModel/Classes/**/*'
+  
+  s.resources = 'AloServiceModel/Assets/**/*'
 
-  s.resource_bundles = {'AloServiceModel' => ['AloServiceModel/Assets/**/*.{json,xib,plist,storyboard,xcassets,mlmodel}']}
+  #s.resource_bundles = {'AloServiceModel' => ['AloServiceModel/Assets/**/*.{json,xib,plist,storyboard,xcassets,mlmodel}']}
   #s.source_files = 'AloServiceModel/Classes/**/*'
   
   #s.resource_bundles = {'AloServiceModel' => ['AloServiceModel/Assets/**/*.{xib}']}
