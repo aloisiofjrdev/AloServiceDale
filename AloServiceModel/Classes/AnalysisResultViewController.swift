@@ -36,6 +36,7 @@ class AnalysisResultViewController: UIViewController {
     
     //MARK: - Methods
     
+    
     private func setupResults() {
         uiResultImageView.image = imageToLoad
         if let firstResult = results.first {
