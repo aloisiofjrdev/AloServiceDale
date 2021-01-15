@@ -27,7 +27,9 @@ pod 'AloServiceModel',
 This project contains a ML model made by aloisiofjrdev called ClubClassifierDale
 
 ## PrintScreens
-
+<div align="center">
+<img src="https://github.com/aloisiofjrdev/AloServiceDale/blob/master/barcelona.png" alt="FacesVisionDemo" width="300" height="464" />
+</div>
 
 ## Author
 
