@@ -1,6 +1,6 @@
 {
   "name": "AloServiceModel",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "summary": "A short description of AloServiceModel.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/aloisiofjrdev/AloServiceModel",
@@ -13,15 +13,10 @@
   },
   "source": {
     "git": "https://github.com/aloisiofjrdev/AloServiceModel.git",
-    "tag": "1.0.0"
+    "tag": "1.1.2"
   },
   "platforms": {
     "ios": "14.0"
   },
-  "source_files": "AloServiceModel/Classes/**/*",
-  "resource_bundles": {
-    "AloServiceModel": [
-      "AloServiceModel/Assets/**/*.{xib}"
-    ]
-  }
+  "source_files": "AloServiceModel/Classes/**/*"
 }

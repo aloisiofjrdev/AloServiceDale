@@ -21,7 +21,8 @@ class AnalysisResultViewController: UIViewController {
     init(image: UIImage, results: [VNClassificationObservation]) {
         self.imageToLoad = image
         self.results = results
-        super.init(nibName: "AnalysisResultViewController", bundle: nil)
+        super.init(nibName: "AnalysisResultViewController", bundle: Bundle(for: AnalysisResultViewController.self))
+        //super.init(nibName: "AnalysisResultViewController", bundle: nil)
     }
     
     required init?(coder: NSCoder) {
