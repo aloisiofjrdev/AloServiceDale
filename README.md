@@ -28,7 +28,7 @@ This project contains a ML model made by aloisiofjrdev called ClubClassifierDale
 
 ## PrintScreens
 <div align="center">
-<img src="https://github.com/aloisiofjrdev/AloServiceDale/blob/master/barcelona.png" alt="FacesVisionDemo" width="500" height="464" />
+<img src="https://github.com/aloisiofjrdev/AloServiceDale/blob/master/barcelona.png" alt="FacesVisionDemo" width="760" height="464" />
 </div>
 
 ## Author
