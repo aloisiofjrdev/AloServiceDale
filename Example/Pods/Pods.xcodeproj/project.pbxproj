@@ -14,10 +14,10 @@
 		4F24C56AB7358C76F2A15BE3A546816E /* AloServiceModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD6EA67FE1343E2CAF9D70A7E52584 /* AloServiceModel-dummy.m */; };
 		50BE1FC88C409925980CB2B3DF04464D /* Pods-AloServiceModel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0180DBEFA1A80CBD1356BA123D24CA98 /* Pods-AloServiceModel_Tests-dummy.m */; };
 		5C91BF9606EE5BF31AFB6E2FBE1E58EF /* AnalysisResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA1B4D0DE8A2F3B794C76FD2056E60C5 /* AnalysisResultViewController.xib */; };
-		98BA0300436D4112CCA6E9599D076493 /* NumberClassifierDale.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 49F321901E259B8F0570A9CCD89199A1 /* NumberClassifierDale.mlmodel */; };
 		9D931EB7F980A85D0D6AC6A8E7DE39AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		AE18C504679E139DC8C7AC0A157AD84E /* AnalysisResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE59CB54F81CE06295550B855CF83C3 /* AnalysisResultViewController.swift */; };
 		CF7232C2FAD863A1A8D794DCEB32E08D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D3BC30F425B20F0B0096BE97 /* ClubClassifierDale.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D3BC30F325B20F0A0096BE97 /* ClubClassifierDale.mlmodel */; };
 		D748B6746FDB6BBD43CDF0CB9BF77B12 /* Pods-AloServiceModel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4055B428E49D93D59566B3291C119362 /* Pods-AloServiceModel_Example-dummy.m */; };
 		FF2866BBCCBCAC224339A61D63083882 /* AloServiceModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA59B491EE21740739AF7B1833C25353 /* AloServiceModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -43,30 +43,30 @@
 		0180DBEFA1A80CBD1356BA123D24CA98 /* Pods-AloServiceModel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AloServiceModel_Tests-dummy.m"; sourceTree = "<group>"; };
 		088686D1D21CED7FC33A973F8F714157 /* Pods-AloServiceModel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AloServiceModel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0ADD6EA67FE1343E2CAF9D70A7E52584 /* AloServiceModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AloServiceModel-dummy.m"; sourceTree = "<group>"; };
-		0C0CF61BF76AF2A6860DFCC4AE32D29B /* Pods_AloServiceModel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AloServiceModel_Example.framework; path = "Pods-AloServiceModel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C0CF61BF76AF2A6860DFCC4AE32D29B /* Pods_AloServiceModel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AloServiceModel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CE59CB54F81CE06295550B855CF83C3 /* AnalysisResultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnalysisResultViewController.swift; path = AloServiceModel/Classes/AnalysisResultViewController.swift; sourceTree = "<group>"; };
 		16EBD8AB4E42C5EC9A2F5E648E8B5989 /* Pods-AloServiceModel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AloServiceModel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1869F904B28A9555FEE2F33B0476979A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1869F904B28A9555FEE2F33B0476979A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1CA10AA430939188AD18E814744381AC /* ImageAnalyzerService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageAnalyzerService.swift; path = AloServiceModel/Classes/ImageAnalyzerService.swift; sourceTree = "<group>"; };
 		20F1F66D0E727D5521FA99EB479187C7 /* Pods-AloServiceModel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AloServiceModel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		253B5D00FD27B9C26F3FF3B3327BFC02 /* Pods-AloServiceModel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AloServiceModel_Tests.modulemap"; sourceTree = "<group>"; };
 		397FC9BD78F170D70402B732B19E71D7 /* Pods-AloServiceModel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AloServiceModel_Example.modulemap"; sourceTree = "<group>"; };
 		4055B428E49D93D59566B3291C119362 /* Pods-AloServiceModel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AloServiceModel_Example-dummy.m"; sourceTree = "<group>"; };
 		4810FE4B22A448AA4918851C42F701F6 /* Pods-AloServiceModel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AloServiceModel_Tests-Info.plist"; sourceTree = "<group>"; };
-		49F321901E259B8F0570A9CCD89199A1 /* NumberClassifierDale.mlmodel */ = {isa = PBXFileReference; includeInIndex = 1; name = NumberClassifierDale.mlmodel; path = AloServiceModel/Classes/NumberClassifierDale.mlmodel; sourceTree = "<group>"; };
-		53A17D548B3A5B1CC8A2308FB2AC4725 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		53A17D548B3A5B1CC8A2308FB2AC4725 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		55635CA82117466D9B8B465E579206ED /* Pods-AloServiceModel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AloServiceModel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		57F206F4E8537FA2112D0913ADB0468C /* AloServiceModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AloServiceModel-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7953B071D0D8AF7F3883563B3C00C511 /* AloServiceModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AloServiceModel.release.xcconfig; sourceTree = "<group>"; };
 		79F1628DFAA99B61ADAD81878916D672 /* Pods-AloServiceModel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AloServiceModel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8802CFAAFB6DED3E8231CBEDA1159DC4 /* AloServiceModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AloServiceModel.framework; path = AloServiceModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8802CFAAFB6DED3E8231CBEDA1159DC4 /* AloServiceModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AloServiceModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		884F53148624333B9A064D51D83C5A4D /* Pods-AloServiceModel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AloServiceModel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9203A929C2FCACF6B5D14DE3E331101 /* Pods-AloServiceModel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AloServiceModel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C71579E72F36A9A9876B2239050B550C /* AloServiceModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AloServiceModel.debug.xcconfig; sourceTree = "<group>"; };
 		CE28A3E5646E4BAC55E7C2F532BFE4CE /* Pods-AloServiceModel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AloServiceModel_Example-umbrella.h"; sourceTree = "<group>"; };
-		D2885872AE14A2E75CC9FAEC53798ED0 /* AloServiceModel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AloServiceModel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D2885872AE14A2E75CC9FAEC53798ED0 /* AloServiceModel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AloServiceModel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D3BC30F325B20F0A0096BE97 /* ClubClassifierDale.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ClubClassifierDale.mlmodel; sourceTree = "<group>"; };
 		E6150C972066E243879A5570F065E812 /* Pods-AloServiceModel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AloServiceModel_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E94EA6EB407A7235FA63473AA9BB49C2 /* Pods-AloServiceModel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AloServiceModel_Example-Info.plist"; sourceTree = "<group>"; };
 		EA1B4D0DE8A2F3B794C76FD2056E60C5 /* AnalysisResultViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AnalysisResultViewController.xib; path = AloServiceModel/Assets/AnalysisResultViewController.xib; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		EB7366021ED10A353DAE2179397C7488 /* Pods-AloServiceModel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AloServiceModel_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F58896063BEBEA4D68529021802F3CB1 /* AloServiceModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AloServiceModel-prefix.pch"; sourceTree = "<group>"; };
 		F70DDA016F4F03CF02C7738FAEF6323E /* AloServiceModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AloServiceModel.modulemap; sourceTree = "<group>"; };
-		FC92968662E7C1C5ADD1D5A4D52C8077 /* Pods_AloServiceModel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AloServiceModel_Tests.framework; path = "Pods-AloServiceModel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC92968662E7C1C5ADD1D5A4D52C8077 /* Pods_AloServiceModel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AloServiceModel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA2C9A02CA9DEC5AE423E0967CD9F97 /* Pods-AloServiceModel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AloServiceModel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -203,9 +203,9 @@
 			isa = PBXGroup;
 			children = (
 				0CE59CB54F81CE06295550B855CF83C3 /* AnalysisResultViewController.swift */,
+				D3BC30F325B20F0A0096BE97 /* ClubClassifierDale.mlmodel */,
 				EA1B4D0DE8A2F3B794C76FD2056E60C5 /* AnalysisResultViewController.xib */,
 				1CA10AA430939188AD18E814744381AC /* ImageAnalyzerService.swift */,
-				49F321901E259B8F0570A9CCD89199A1 /* NumberClassifierDale.mlmodel */,
 				38AF86057D3C470FD9DB846E96CF3FC1 /* Pod */,
 				A8AF0C09C8C77858D260E1E9E4AAC639 /* Support Files */,
 			);
@@ -380,7 +380,7 @@
 				4F24C56AB7358C76F2A15BE3A546816E /* AloServiceModel-dummy.m in Sources */,
 				AE18C504679E139DC8C7AC0A157AD84E /* AnalysisResultViewController.swift in Sources */,
 				1ADD244EB789C292F781A6297ACAA37E /* ImageAnalyzerService.swift in Sources */,
-				98BA0300436D4112CCA6E9599D076493 /* NumberClassifierDale.mlmodel in Sources */,
+				D3BC30F425B20F0B0096BE97 /* ClubClassifierDale.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,8 +606,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

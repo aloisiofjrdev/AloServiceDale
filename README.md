@@ -24,7 +24,7 @@ pod 'AloServiceModel',
 ```
 ## Comments
 
-This project contains a ML model made by aloisiofjrdev called NumberClassifierDale
+This project contains a ML model made by aloisiofjrdev called ClubClassifierDale
 
 ## Author
 

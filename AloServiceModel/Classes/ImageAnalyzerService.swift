@@ -25,7 +25,7 @@ public class ImageAnalyzer: ImageAnalyzerService {
             return
         }
         
-        guard let model = try? VNCoreMLModel(for: NumberClassifierDale(configuration: MLModelConfiguration()).model) else {
+        guard let model = try? VNCoreMLModel(for: ClubClassifierDale(configuration: MLModelConfiguration()).model) else {
             failure("can't load NumberClassifierDale ML model")
             return
         }
