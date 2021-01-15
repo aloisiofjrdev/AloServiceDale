@@ -3,9 +3,9 @@ use_frameworks!
 platform :ios, '14.0'
 
 target 'AloServiceModel_Example' do
-  pod 'AloServiceModel', #:path => '../'
-  :git => 'https://github.com/aloisiofjrdev/AloServiceDale',
-  :branch => 'master'
+  pod 'AloServiceModel', :path => '../'
+  #:git => 'https://github.com/aloisiofjrdev/AloServiceDale',
+  #:branch => 'master'
   
 
   target 'AloServiceModel_Tests' do

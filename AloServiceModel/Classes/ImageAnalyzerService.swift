@@ -25,8 +25,8 @@ public class ImageAnalyzer: ImageAnalyzerService {
             return
         }
         
-        guard let model = try? VNCoreMLModel(for: MNISTClassifier(configuration: MLModelConfiguration()).model) else {
-            failure("can't load CNNEmotions ML model")
+        guard let model = try? VNCoreMLModel(for: NumberClassifierDale(configuration: MLModelConfiguration()).model) else {
+            failure("can't load NumberClassifierDale ML model")
             return
         }
         
