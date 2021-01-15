@@ -17,8 +17,14 @@ AloServiceModel is available through [CocoaPods](https://cocoapods.org). To inst
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'AloServiceModel'
+pod 'AloServiceModel',
+:git => 'https://github.com/aloisiofjrdev/AloServiceDale',
+:branch => 'master'
+
 ```
+## Comments
+
+This project contains a ready-made ML model from Apple called MNISTClassifier - (https://developer.apple.com/machine-learning/models/#image).
 
 ## Author
 

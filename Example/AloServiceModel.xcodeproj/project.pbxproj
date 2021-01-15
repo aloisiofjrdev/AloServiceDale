@@ -14,7 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		BDEA0ED2169D898F20E8390D /* Pods_AloServiceModel_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6048886D11F68F373D6FFA /* Pods_AloServiceModel_Tests.framework */; };
+		C627882C95EA6EEA27A99F5B /* Pods_AloServiceModel_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 431EBDDA218CB4611D6DB96C /* Pods_AloServiceModel_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CC698F77E0098506D5F953B /* Pods-AloServiceModel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloServiceModel_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AloServiceModel_Tests/Pods-AloServiceModel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1D423305266BF2AB36BABAD9 /* Pods-AloServiceModel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloServiceModel_Example.release.xcconfig"; path = "Target Support Files/Pods-AloServiceModel_Example/Pods-AloServiceModel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2389E806A753C29004ABCF6C /* Pods-AloServiceModel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloServiceModel_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AloServiceModel_Tests/Pods-AloServiceModel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		431EBDDA218CB4611D6DB96C /* Pods_AloServiceModel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AloServiceModel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4333DD35C9600042855C0854 /* AloServiceModel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AloServiceModel.podspec; path = ../AloServiceModel.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AloServiceModel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AloServiceModel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,11 +42,10 @@
 		607FACE51AFB9204008FA782 /* AloServiceModel_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AloServiceModel_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		607FCBDFB9CBCF5C8ED774B3 /* Pods-AloServiceModel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloServiceModel_Tests.release.xcconfig"; path = "Target Support Files/Pods-AloServiceModel_Tests/Pods-AloServiceModel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6C5CA06A78826014D64830AA /* Pods_AloServiceModel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AloServiceModel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A40EC66136F6A887B50703 /* Pods-AloServiceModel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloServiceModel_Example.debug.xcconfig"; path = "Target Support Files/Pods-AloServiceModel_Example/Pods-AloServiceModel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9B6048886D11F68F373D6FFA /* Pods_AloServiceModel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AloServiceModel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7979CD5D3B832FA29AC6CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ED366620B5159351FB21198C /* Pods-AloServiceModel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloServiceModel_Tests.release.xcconfig"; path = "Target Support Files/Pods-AloServiceModel_Tests/Pods-AloServiceModel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F9C1ADF5B9B3151E3E294194 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDEA0ED2169D898F20E8390D /* Pods_AloServiceModel_Tests.framework in Frameworks */,
+				C627882C95EA6EEA27A99F5B /* Pods_AloServiceModel_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				6C5CA06A78826014D64830AA /* Pods_AloServiceModel_Example.framework */,
-				9B6048886D11F68F373D6FFA /* Pods_AloServiceModel_Tests.framework */,
+				431EBDDA218CB4611D6DB96C /* Pods_AloServiceModel_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,8 +153,8 @@
 			children = (
 				96A40EC66136F6A887B50703 /* Pods-AloServiceModel_Example.debug.xcconfig */,
 				1D423305266BF2AB36BABAD9 /* Pods-AloServiceModel_Example.release.xcconfig */,
-				1CC698F77E0098506D5F953B /* Pods-AloServiceModel_Tests.debug.xcconfig */,
-				607FCBDFB9CBCF5C8ED774B3 /* Pods-AloServiceModel_Tests.release.xcconfig */,
+				2389E806A753C29004ABCF6C /* Pods-AloServiceModel_Tests.debug.xcconfig */,
+				ED366620B5159351FB21198C /* Pods-AloServiceModel_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -185,7 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "AloServiceModel_Tests" */;
 			buildPhases = (
-				DD86EEB72E76993423C37A97 /* [CP] Check Pods Manifest.lock */,
+				99664BC4CEB70491EF897F9B /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -302,7 +302,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AloServiceModel_Example/Pods-AloServiceModel_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DD86EEB72E76993423C37A97 /* [CP] Check Pods Manifest.lock */ = {
+		99664BC4CEB70491EF897F9B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -507,7 +507,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CC698F77E0098506D5F953B /* Pods-AloServiceModel_Tests.debug.xcconfig */;
+			baseConfigurationReference = 2389E806A753C29004ABCF6C /* Pods-AloServiceModel_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -529,7 +529,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 607FCBDFB9CBCF5C8ED774B3 /* Pods-AloServiceModel_Tests.release.xcconfig */;
+			baseConfigurationReference = ED366620B5159351FB21198C /* Pods-AloServiceModel_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
