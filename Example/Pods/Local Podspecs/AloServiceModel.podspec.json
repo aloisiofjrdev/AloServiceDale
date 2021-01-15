@@ -18,10 +18,10 @@
   "platforms": {
     "ios": "14.0"
   },
-  "source_files": "AloServiceModel/Classes/**/*",
+  "source_files": "AloServiceModel/Classes/**/*.{swift,m,h,mlmodel}",
   "resource_bundles": {
     "AloServiceModel": [
-      "AloServiceModel/Assets/**/*.{xib}"
+      "AloServiceModel/Assets/**/*.{json,xib,plist,storyboard,xcassets,mlmodel}"
     ]
   }
 }

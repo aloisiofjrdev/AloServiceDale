@@ -30,9 +30,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '14.0'
 
-  s.source_files = 'AloServiceModel/Classes/**/*'
+  s.source_files = 'AloServiceModel/Classes/**/*.{swift,m,h,mlmodel}'
+
+  s.resource_bundles = {'AloServiceModel' => ['AloServiceModel/Assets/**/*.{json,xib,plist,storyboard,xcassets,mlmodel}']}
+  #s.source_files = 'AloServiceModel/Classes/**/*'
   
-  s.resource_bundles = {'AloServiceModel' => ['AloServiceModel/Assets/**/*.{xib}']}
+  #s.resource_bundles = {'AloServiceModel' => ['AloServiceModel/Assets/**/*.{xib}']}
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
