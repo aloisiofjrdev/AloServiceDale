@@ -1,5 +1,5 @@
 PODS:
-  - AloServiceModel (1.1.2)
+  - AloServiceModel (1.1.6)
 
 DEPENDENCIES:
   - AloServiceModel (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AloServiceModel: 316777e7c017e7d647059e36b70b3b15387a9513
+  AloServiceModel: fd5cc01153626bbf673143d8340c72e16ab9b8d1
 
 PODFILE CHECKSUM: 432012b507198599824f5f788c24471edec18225
 

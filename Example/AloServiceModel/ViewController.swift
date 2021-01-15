@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AloServiceModel
 
 class ViewController: UIViewController {
 
