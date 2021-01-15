@@ -1,16 +1,22 @@
 PODS:
-  - AloServiceModel (1.1.7)
+  - AloServiceModel (1.1.8)
 
 DEPENDENCIES:
-  - AloServiceModel (from `../`)
+  - AloServiceModel (from `https://github.com/aloisiofjrdev/AloServiceDale`, branch `master`)
 
 EXTERNAL SOURCES:
   AloServiceModel:
-    :path: "../"
+    :branch: master
+    :git: https://github.com/aloisiofjrdev/AloServiceDale
+
+CHECKOUT OPTIONS:
+  AloServiceModel:
+    :commit: 9dc5a4c36868993b44e3794d78a9e9343a6c0f9d
+    :git: https://github.com/aloisiofjrdev/AloServiceDale
 
 SPEC CHECKSUMS:
-  AloServiceModel: 3a50157826d58caabbeb3d88e9139c239355f963
+  AloServiceModel: 0c997f0f5e6594a2bb6d557f3d04d6093100d483
 
-PODFILE CHECKSUM: 1a48dcfd4417017fed56063de463bd4eee5d6984
+PODFILE CHECKSUM: 851d6dc137244c4c6873c30fbb80c76e01902693
 
 COCOAPODS: 1.10.0

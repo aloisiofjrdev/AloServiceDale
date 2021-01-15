@@ -38,7 +38,7 @@ class AnalysisResultViewController: UIViewController {
     private func setupResults() {
         uiResultImageView.image = imageToLoad
         if let firstResult = results.first {
-            uiResulLabel.text = firstResult.identifier
+            uiResulLabel.text = "Este é o numero: \(firstResult.identifier)"
             uiConfidenceLabel.text = "\(Int(firstResult.confidence * 100))% de confiança"
         } else {
             navigationController?.popToRootViewController(animated: true)

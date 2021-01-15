@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AloServiceModel'
-  s.version          = '1.1.8'
+  s.version          = '1.2.0'
   s.summary          = 'A short description of AloServiceModel.'
 
 # This description is used to generate tags and improve search results.
