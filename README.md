@@ -18,13 +18,13 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'AloServiceModel',
-:git => 'https://github.com/aloisiofjrdev/AloServiceDale',
+:git => 'https://github.com/aloisiofjrdev/AloServiceDale.git',
 :branch => 'master'
 
 ```
 ## Comments
 
-This project contains a ready-made ML model from Apple called MNISTClassifier - (https://developer.apple.com/machine-learning/models/#image).
+This project contains a ML model made by aloisiofjrdev called NumberClassifierDale
 
 ## Author
 
